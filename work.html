@@ -4,101 +4,127 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/5a7f8d07c0.js"
+      crossorigin="anonymous"
+    ></script>
     <link
+      href="https://fonts.googleapis.com/css?family=Dosis&display=swap"
       rel="stylesheet"
-      href="http://use.fontawesome.com/releases/v5.2.0/css/all.css"
     />
     <link rel="stylesheet" href="css/main.css" />
-    <title>View My Work</title>
+    <title>My Work | Web Designer | Games Developer | Programmer</title>
   </head>
   <body>
-    <header>
-      <div class="menu-btn">
-        <div class="close">
-          <div class="btn-line"></div>
-          <div class="btn-line"></div>
-          <div class="btn-line"></div>
-        </div>
+    <!-- Header -->
+    <header id="header-inner">
+      <div class="container">
+        <nav id="main-nav">
+          <!-- <img src="./img/SP_Logo_Color.png" alt="My Portfolio" id="logo" /> -->
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="work.html" class="current">Work</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
       </div>
-
-      <nav class="menu">
-        <div class="menu-branding">
-          <div class="portrait"></div>
-        </div>
-        <div class="menu-btn"></div>
-        <ul class="menu-nav">
-          <li class="nav-item">
-            <a href="index.html" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="about.html" class="nav-link">About Me</a>
-          </li>
-          <li class="nav-item current">
-            <a href="work.html" class="nav-link">My Work</a>
-          </li>
-          <li class="nav-item">
-            <a href="contact.html" class="nav-link">Contact Me</a>
-          </li>
-        </ul>
-      </nav>
     </header>
 
-    <main id="work">
-      <h1 class="lg-heading">My <span class="text-secondary">Work</span></h1>
-      <h2 class="sm-heading">Here is some projects i worked on!</h2>
-      <div class="projects">
-        <div class="item">
-          <a href="#!">
-            <img src="img/projects/Project1.jpg" alt="Project1" />
-          </a>
-          <a href="#" class="btn-light"> <i class="fas fa-eye"></i> Project </a>
-          <a href="#" class="btn-dark">
-            <i class="fab fa-github"></i> Github
-          </a>
-        </div>
-        <div class="item">
-          <a href="#!">
-            <img src="img/projects/Project2.jpg" alt="Project2" />
-          </a>
-          <a href="#" class="btn-light"> <i class="fas fa-eye"></i> Project </a>
-          <a href="#" class="btn-dark">
-            <i class="fab fa-github"></i> Github
-          </a>
-        </div>
-        <div class="item">
-          <a href="#!">
-            <img src="img/projects/Project3.jpg" alt="Project3" />
-          </a>
-          <a href="#" class="btn-light"> <i class="fas fa-eye"></i> Project </a>
-          <a href="#" class="btn-dark">
-            <i class="fab fa-github"></i> Github
-          </a>
-        </div>
-        <div class="item">
-          <a href="#!">
-            <img src="img/projects/Project4.jpg" alt="Project4" />
-          </a>
-          <a href="#" class="btn-light"> <i class="fas fa-eye"></i> Project </a>
-          <a href="#" class="btn-dark">
-            <i class="fab fa-github"></i> Github
-          </a>
-        </div>
-        <div class="item">
-          <a href="#!">
-            <img src="img/projects/Project5.jpg" alt="Project5" />
-          </a>
-          <a href="#" class="btn-light"> <i class="fas fa-eye"></i> Project </a>
-          <a href="#" class="btn-dark">
-            <i class="fab fa-github"></i> Github
-          </a>
+    <!-- Section A: Gallery -->
+    <section id="work-a" class="text-center py-3">
+      <div class="container">
+        <h2 class="section-title">My Work</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">
+          Check out some of my projects
+        </p>
+        <div class="items">
+          <div class="item">
+            <div class="item-image">
+              <img src="img/items/item1.png" alt="" />
+            </div>
+            <div class="item-text">
+              <div class="item-text-wrap">
+                <p class="item-text-category">Web Development</p>
+                <h2 class="item-text-title">The Sound of Bootcamp</h2>
+                <p class="item-text-category">Charlie Bateson</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-image">
+              <img src="img/items/item2.png" alt="" />
+            </div>
+            <div class="item-text">
+              <div class="item-text-wrap">
+                <p class="item-text-category">Games Production</p>
+                <h2 class="item-text-title">Hollywood Hotrods</h2>
+                <p class="item-text-category">Skyna Productions</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-image">
+              <img src="img/items/item3.png" alt="" />
+            </div>
+            <div class="item-text">
+              <div class="item-text-wrap">
+                <p class="item-text-category">Games Production</p>
+                <h2 class="item-text-title">The Hunted</h2>
+                <p class="item-text-category">Personal Project</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-image">
+              <img src="img/items/item4.png" alt="" />
+            </div>
+            <div class="item-text">
+              <div class="item-text-wrap">
+                <p class="item-text-category">Games Production</p>
+                <h2 class="item-text-title">The 6 Trials</h2>
+                <p class="item-text-category">Skyna Productions</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-image">
+              <img src="img/items/item5.png" alt="" />
+            </div>
+            <div class="item-text">
+              <div class="item-text-wrap">
+                <p class="item-text-category">Web Design</p>
+                <h2 class="item-text-title">Actor Portfolio</h2>
+                <p class="item-text-category">Simon Whicker</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-image">
+              <img src="" alt="" />
+            </div>
+            <div class="item-text">
+              <div class="item-text-wrap">
+                <p class="item-text-category">Future Project</p>
+                <h2 class="item-text-title">Coming Soon</h2>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </main>
-
+    </section>
+    <!-- Footer -->
     <footer id="main-footer">
-      Copyright &copy; 2019
+      <div class="footer-content container">
+        <p>Copyright &copy; 2019. All Rights Reserved</p>
+        <div class="social">
+          <i class="fab fa-github"></i>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin"></i>
+        </div>
+      </div>
     </footer>
-
-    <script src="js/main.js"></script>
   </body>
 </html>

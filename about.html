@@ -4,93 +4,197 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/5a7f8d07c0.js"
+      crossorigin="anonymous"
+    ></script>
     <link
+      href="https://fonts.googleapis.com/css?family=Dosis&display=swap"
       rel="stylesheet"
-      href="http://use.fontawesome.com/releases/v5.2.0/css/all.css"
     />
     <link rel="stylesheet" href="css/main.css" />
-    <title>About Me</title>
+    <title>About Me | Web Designer | Games Developer | Programmer</title>
   </head>
   <body>
-    <header>
-      <div class="menu-btn">
-        <div class="close">
-          <div class="btn-line"></div>
-          <div class="btn-line"></div>
-          <div class="btn-line"></div>
-        </div>
+    <!-- Header -->
+    <header id="header-inner">
+      <div class="container">
+        <nav id="main-nav">
+          <!-- <img src="./img/SP_Logo_Color.png" alt="My Portfolio" id="logo" /> -->
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="current">About</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
       </div>
-
-      <nav class="menu">
-        <div class="menu-branding">
-          <div class="portrait"></div>
-        </div>
-        <div class="menu-btn"></div>
-        <ul class="menu-nav">
-          <li class="nav-item">
-            <a href="index.html" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item current">
-            <a href="about.html" class="nav-link">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a href="work.html" class="nav-link">My Work</a>
-          </li>
-          <li class="nav-item">
-            <a href="contact.html" class="nav-link">Contact Me</a>
-          </li>
-        </ul>
-      </nav>
     </header>
 
-    <main id="about">
-      <h1 class="lg-heading">About <span class="text-secondary">Me</span></h1>
-      <h2 class="sm-heading">Let me tell you a few things</h2>
-      <div class="about-info">
-        <img src="img/portrait.jpg" alt="Neil Farrier" class="bio-image" />
-        <div class="bio">
-          <h3 class="text-secondary">BIO</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-            ducimus eveniet voluptate et, vel exercitationem deserunt quasi
-            inventore distinctio pariatur similique sunt consequuntur eos,
-            tempore dolor minus quo, fugit magni!
-          </p>
-        </div>
-        <div class="job job-1">
-          <h3>123 Webshop</h3>
-          <h6>Full Stack Developer</h6>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas,
-            ratione dolore alias rem sequi error nihil labore numquam. Quaerat,
-            quidem.
-          </p>
-        </div>
-        <div class="job job-2">
-          <h3>Designers ABC</h3>
-          <h6>Front End Developer</h6>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas,
-            ratione dolore alias rem sequi error nihil labore numquam. Quaerat,
-            quidem.
-          </p>
-        </div>
-        <div class="job job-3">
-          <h3>Web Works</h3>
-          <h6>Graphic Designer</h6>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas,
-            ratione dolore alias rem sequi error nihil labore numquam. Quaerat,
-            quidem.
-          </p>
+    <!-- Section A: Info -->
+    <section id="about-a" class="text-center py-3">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">Let me tell you a little about myself and what I do</p>
+        <div class="about-info">
+          <img src="img/portrait.jpg" alt="" class="bio-image" />
+          <div class="bio bg-light">
+            <h4>Your Project is in safe hands</h4>
+            <p>
+              Hi there! My name is Neil. I am a self taught programmer, web
+              developer and games developer with a true passion for coding. I
+              first got into coding around 18 months ago when i was looking
+              around trying to turn my childhood passion, Video Games, into an
+              income stream. Since then i have explored many aspects to do with
+              video games development and found that my true passion lies in
+              coding. I have taught myself c#, HTML, CSS, Javascript, Java, SaSS
+              as well as Unity, Aodbe Suite, Video Editing, Sound Engineering
+              and other things necessary to make games. With all that said, i am
+              an avid student of the coding arts who is looking to bring his
+              life experience to a company in a coding role where i can learn
+              from people in the field and broaden my horizons. While i may not
+              have a formal education, i bring a wealth of life experience, and
+              even more passion, that will be a great asset to any company.
+            </p>
+          </div>
+          <div class="award-1">
+            <i class="fas fa-award fa-3x"></i>
+            <h3>Course One</h3>
+            <p>
+              Modern HTML and CSS, from the Beginning. By Brad Traversy (Udemy.)
+            </p>
+          </div>
+          <div class="award-2">
+            <i class="fas fa-award fa-3x"></i>
+            <h3>Course Two</h3>
+            <p>
+              Modern Javascript, from the Beginning. By Brad Traversy (Udemy).
+            </p>
+          </div>
+          <div class="award-3">
+            <i class="fas fa-award fa-3x"></i>
+            <h3>Course Three</h3>
+            <p>
+              Introduction to Programming (Java). RMIT.
+            </p>
+          </div>
         </div>
       </div>
-    </main>
+    </section>
 
+    <!-- Section B: Progress bars -->
+    <section id="about-b" class="bg-dark py-3">
+      <div class="container">
+        <h2 class="section-title">My Confidence Levels</h2>
+        <div class="bottom-line"></div>
+        <h4>HTML:</h4>
+        <div id="progress">
+          <div style="width: 100%;"></div>
+        </div>
+        <h4>CSS:</h4>
+        <div id="progress">
+          <div style="width: 80%;"></div>
+        </div>
+        <h4>Javascript:</h4>
+        <div id="progress">
+          <div style="width: 30%;"></div>
+        </div>
+        <h4>SaSS:</h4>
+        <div id="progress">
+          <div style="width: 30%;"></div>
+        </div>
+        <h4>Github:</h4>
+        <div id="progress">
+          <div style="width: 70%;"></div>
+        </div>
+        <h4>C#:</h4>
+        <div id="progress">
+          <div style="width: 30%;"></div>
+        </div>
+        <h4>Adobe:</h4>
+        <div id="progress">
+          <div style="width: 50%;"></div>
+        </div>
+        <h4>Blender:</h4>
+        <div id="progress">
+          <div style="width: 60%;"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section C: Logos -->
+    <section id="about-c" class="py-4 ng-light">
+      <div class="container">
+        <div class="about-logos">
+          <img src="img/about-logos/HTML5_resized.png" alt="" />
+          <img src="img/about-logos/CSS3_resized.png" alt="" />
+          <img src="img/about-logos/JS_Resized.png" alt="" />
+          <img src="img/about-logos/c-sharp_resized.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Section D:Testimonials -->
+    <section id="about-d" class="py-4">
+      <div class="container">
+        <h2 class="section-title">Testimonials</h2>
+        <div class="bottom-line"></div>
+        <p class="lead text-center">Take a look at what my clients say</p>
+        <div class="testimonials">
+          <div>
+            <p>
+              From the design concept to ease of execution, this experience has
+              been Phenomenal. No question was to silly or request to
+              outrageous. Neil's professionalism is second to none. I can't
+              thank you enough for how you have dealt with every single aspect
+              of this design and i honestly could not be happier with the
+              outcome. I can't wait to tell everyone i know to check out your
+              work. I'm proud to display it and excited to see how it's
+              received. Absolute best decision i ahve ever made. Thank you from
+              the bottom of my heart. You are a master and have made my own work
+              look even better.
+            </p>
+            <ul>
+              <li><img src="img/testimonials/simon.jpg" alt="" /></li>
+              <li>Simon Whicker, Sydney</li>
+            </ul>
+          </div>
+          <div>
+            <p>
+              Neil has a great understanding for game development. He was able
+              to assist on many aspects of both games we developed. Highly
+              valued asset.
+            </p>
+            <ul>
+              <li><img src="img/SP_Logo_Color.png" alt="" /></li>
+              <li>Skyna Productions. Perth</li>
+            </ul>
+          </div>
+          <div>
+            <p>
+              Enter quote from Charlie
+            </p>
+            <ul>
+              <li><img src="img/testimonials/charlie.jpg" alt="" /></li>
+              <li>Charlie Bateson, Sydney</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
     <footer id="main-footer">
-      Copyright &copy; 2019
+      <div class="footer-content container">
+        <p>Copyright &copy; 2019. All Rights Reserved</p>
+        <div class="social">
+          <i class="fab fa-github"></i>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin"></i>
+        </div>
+      </div>
     </footer>
-
-    <script src="js/main.js"></script>
   </body>
 </html>
