@@ -1,200 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script
-      src="https://kit.fontawesome.com/5a7f8d07c0.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      href="https://fonts.googleapis.com/css?family=Dosis&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/main.css" />
-    <title>About Me | Web Designer | Games Developer | Programmer</title>
-  </head>
-  <body>
-    <!-- Header -->
-    <header id="header-inner">
-      <div class="container">
-        <nav id="main-nav">
-          <!-- <img src="./img/SP_Logo_Color.png" alt="My Portfolio" id="logo" /> -->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <script src="https://kit.fontawesome.com/5a7f8d07c0.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css" />
+  <title>About Me | Web Designer | Games Developer | Programmer</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header id="header-inner">
+    <div class="container">
+      <nav id="main-nav">
+        <!-- <img src="./img/SP_Logo_Color.png" alt="My Portfolio" id="logo" /> -->
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="current">About</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Section A: Info -->
+  <section id="about-a" class="text-center py-3">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="bottom-line"></div>
+      <p class="lead">Let me tell you a little about myself and what I do</p>
+      <div class="about-info">
+        <img src="img/portrait.jpg" alt="" class="bio-image" />
+        <div class="bio bg-light">
+          <h4>Your Project is in safe hands</h4>
+          <p>
+            Hi there! My name is Neil. I am a self taught programmer, web
+            developer and games developer with a true passion for coding. I
+            first got into coding around 24 months ago when i was looking
+            around trying to turn my childhood passion, Video Games, into an
+            income stream. Since then i have explored many aspects to do with
+            video games development and found that my true passion lies in
+            coding. I have taught myself all the fundamentals of Full Stack Web Development using the MERN stack
+            as well as Unity, Aodbe Suite, Video Editing, Sound Engineering
+            and other things necessary to make games. With all that said, i am
+            an avid student of the coding arts who is looking to bring his
+            life experience to a company in a coding role where i can learn
+            from people in the field and broaden my horizons. While i may not
+            have a formal education, i bring a wealth of life experience, and
+            even more passion, that will be a great asset to any company.
+          </p>
+        </div>
+        <div class="award-1">
+          <i class="fas fa-award fa-3x"></i>
+          <h3>Course One</h3>
+          <p>
+            Modern HTML and CSS, from the Beginning. By Brad Traversy (Udemy.)
+          </p>
+        </div>
+        <div class="award-2">
+          <i class="fas fa-award fa-3x"></i>
+          <h3>Course Two</h3>
+          <p>
+            Modern Javascript, from the Beginning. By Brad Traversy (Udemy).
+          </p>
+        </div>
+        <div class="award-3">
+          <i class="fas fa-award fa-3x"></i>
+          <h3>Course Three</h3>
+          <p>
+            MERN Stack, Front to Back. By Brad Traversy (Udemy).
+          </p>
+        </div>
+        <div class="award-4">
+          <i class="fas fa-award fa-3x"></i>
+          <h3>Course Four</h3>
+          <p>
+            Unity Game Development Mini Degree. Zenva Acadmey.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section B: Progress bars -->
+  <section id="about-b" class="bg-dark py-3">
+    <div class="container">
+      <h2 class="section-title">My Confidence Levels</h2>
+      <div class="bottom-line"></div>
+      <h4>Javascript:</h4>
+      <div id="progress">
+        <div style="width: 50%;"></div>
+      </div>
+      <h4>MERN Stack:</h4>
+      <div id="progress">
+        <div style="width: 50%;"></div>
+      </div>
+      <h4>2D Development:</h4>
+      <div id="progress">
+        <div style="width: 80%;"></div>
+      </div>
+      <h4>3D Development:</h4>
+      <div id="progress">
+        <div style="width: 80%;"></div>
+      </div>
+      <h4>Github:</h4>
+      <div id="progress">
+        <div style="width: 70%;"></div>
+      </div>
+      <h4>C#:</h4>
+      <div id="progress">
+        <div style="width: 60%;"></div>
+      </div>
+      <h4>Adobe Suite:</h4>
+      <div id="progress">
+        <div style="width: 40%;"></div>
+      </div>
+      <h4>Blender:</h4>
+      <div id="progress">
+        <div style="width: 60%;"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section C: Logos -->
+  <section id="about-c" class="py-4 ng-light">
+    <div class="container">
+      <div class="about-logos">
+        <img src="img/about-logos/HTML5_resized.png" alt="" />
+        <img src="img/about-logos/CSS3_resized.png" alt="" />
+        <img src="img/about-logos/JS_Resized.png" alt="" />
+        <img src="img/about-logos/c-sharp_resized.png" alt="" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Section D:Testimonials -->
+  <section id="about-d" class="py-4">
+    <div class="container">
+      <h2 class="section-title">Testimonials</h2>
+      <div class="bottom-line"></div>
+      <p class="lead text-center">Take a look at what my clients say</p>
+      <div class="testimonials">
+        <div>
+          <p>
+            From the design concept to ease of execution, this experience has
+            been Phenomenal. No question was to silly or request to
+            outrageous. Neil's professionalism is second to none. I can't
+            thank you enough for how you have dealt with every single aspect
+            of this design and i honestly could not be happier with the
+            outcome. I can't wait to tell everyone i know to check out your
+            work. I'm proud to display it and excited to see how it's
+            received. Absolute best decision i ahve ever made. Thank you from
+            the bottom of my heart. You are a master and have made my own work
+            look even better.
+          </p>
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html" class="current">About</a></li>
-            <li><a href="work.html">Work</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><img src="img/testimonials/simon.jpg" alt="" /></li>
+            <li>Simon Whicker, Sydney</li>
           </ul>
-        </nav>
+        </div>
+        <div>
+          <p>
+            Neil has a great understanding for game development. He was able
+            to assist on many aspects of both games we developed. Highly
+            valued asset.
+          </p>
+          <ul>
+            <li><img src="img/SP_Logo_Color.png" alt="" /></li>
+            <li>Skyna Productions. Perth</li>
+          </ul>
+        </div>
+        <div>
+          <p>
+            I was lucky enough to work alongside Neil and over conversation he mentioned he could build
+            me a website for the start up BootCamp i was talking about and planning on launching. Not
+            being very knowledgeable in the field it was something I have been meaning to look into but
+            hadn't built up the mental energy or motivation to open that door. Neil not only took on the task
+            with fantastic charisma but showed and informed me of what hed done and was about to do
+            everystep of the way. It was effortless on my half and i now have what i need without having to
+            lift a finger. I like that he has understood what my site is for and the requirements i need it to do
+            and given it a great individual personalization with his unique style that aims to take you on a
+            little journey thru the site and an all round better browsing experience.
+          </p>
+          <ul>
+            <li><img src="img/testimonials/charlie.jpg" alt="" /></li>
+            <li>Charlie Bateson, Sydney</li>
+          </ul>
+        </div>
       </div>
-    </header>
+    </div>
+  </section>
 
-    <!-- Section A: Info -->
-    <section id="about-a" class="text-center py-3">
-      <div class="container">
-        <h2 class="section-title">About Me</h2>
-        <div class="bottom-line"></div>
-        <p class="lead">Let me tell you a little about myself and what I do</p>
-        <div class="about-info">
-          <img src="img/portrait.jpg" alt="" class="bio-image" />
-          <div class="bio bg-light">
-            <h4>Your Project is in safe hands</h4>
-            <p>
-              Hi there! My name is Neil. I am a self taught programmer, web
-              developer and games developer with a true passion for coding. I
-              first got into coding around 18 months ago when i was looking
-              around trying to turn my childhood passion, Video Games, into an
-              income stream. Since then i have explored many aspects to do with
-              video games development and found that my true passion lies in
-              coding. I have taught myself c#, HTML, CSS, Javascript, Java, SaSS
-              as well as Unity, Aodbe Suite, Video Editing, Sound Engineering
-              and other things necessary to make games. With all that said, i am
-              an avid student of the coding arts who is looking to bring his
-              life experience to a company in a coding role where i can learn
-              from people in the field and broaden my horizons. While i may not
-              have a formal education, i bring a wealth of life experience, and
-              even more passion, that will be a great asset to any company.
-            </p>
-          </div>
-          <div class="award-1">
-            <i class="fas fa-award fa-3x"></i>
-            <h3>Course One</h3>
-            <p>
-              Modern HTML and CSS, from the Beginning. By Brad Traversy (Udemy.)
-            </p>
-          </div>
-          <div class="award-2">
-            <i class="fas fa-award fa-3x"></i>
-            <h3>Course Two</h3>
-            <p>
-              Modern Javascript, from the Beginning. By Brad Traversy (Udemy).
-            </p>
-          </div>
-          <div class="award-3">
-            <i class="fas fa-award fa-3x"></i>
-            <h3>Course Three</h3>
-            <p>
-              Introduction to Programming (Java). RMIT.
-            </p>
-          </div>
-        </div>
+  <!-- Footer -->
+  <footer id="main-footer">
+    <div class="footer-content container">
+      <p>Copyright &copy; 2020. All Rights Reserved</p>
+      <div class="social">
+        <a href="https://github.com/neilfarrier" target="blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.facebook.com/neil.farrier/" target="blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://neil-farrier.itch.io/" target="blank"><i class="fab fa-itch-io"></i></a>
+        <a href="https://www.linkedin.com/in/neil-farrier-588096129/" target="blank"><i class="fab fa-linkedin"></i></a>
       </div>
-    </section>
+  </footer>
+</body>
 
-    <!-- Section B: Progress bars -->
-    <section id="about-b" class="bg-dark py-3">
-      <div class="container">
-        <h2 class="section-title">My Confidence Levels</h2>
-        <div class="bottom-line"></div>
-        <h4>HTML:</h4>
-        <div id="progress">
-          <div style="width: 100%;"></div>
-        </div>
-        <h4>CSS:</h4>
-        <div id="progress">
-          <div style="width: 80%;"></div>
-        </div>
-        <h4>Javascript:</h4>
-        <div id="progress">
-          <div style="width: 30%;"></div>
-        </div>
-        <h4>SaSS:</h4>
-        <div id="progress">
-          <div style="width: 30%;"></div>
-        </div>
-        <h4>Github:</h4>
-        <div id="progress">
-          <div style="width: 70%;"></div>
-        </div>
-        <h4>C#:</h4>
-        <div id="progress">
-          <div style="width: 30%;"></div>
-        </div>
-        <h4>Adobe:</h4>
-        <div id="progress">
-          <div style="width: 50%;"></div>
-        </div>
-        <h4>Blender:</h4>
-        <div id="progress">
-          <div style="width: 60%;"></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section C: Logos -->
-    <section id="about-c" class="py-4 ng-light">
-      <div class="container">
-        <div class="about-logos">
-          <img src="img/about-logos/HTML5_resized.png" alt="" />
-          <img src="img/about-logos/CSS3_resized.png" alt="" />
-          <img src="img/about-logos/JS_Resized.png" alt="" />
-          <img src="img/about-logos/c-sharp_resized.png" alt="" />
-        </div>
-      </div>
-    </section>
-
-    <!-- Section D:Testimonials -->
-    <section id="about-d" class="py-4">
-      <div class="container">
-        <h2 class="section-title">Testimonials</h2>
-        <div class="bottom-line"></div>
-        <p class="lead text-center">Take a look at what my clients say</p>
-        <div class="testimonials">
-          <div>
-            <p>
-              From the design concept to ease of execution, this experience has
-              been Phenomenal. No question was to silly or request to
-              outrageous. Neil's professionalism is second to none. I can't
-              thank you enough for how you have dealt with every single aspect
-              of this design and i honestly could not be happier with the
-              outcome. I can't wait to tell everyone i know to check out your
-              work. I'm proud to display it and excited to see how it's
-              received. Absolute best decision i ahve ever made. Thank you from
-              the bottom of my heart. You are a master and have made my own work
-              look even better.
-            </p>
-            <ul>
-              <li><img src="img/testimonials/simon.jpg" alt="" /></li>
-              <li>Simon Whicker, Sydney</li>
-            </ul>
-          </div>
-          <div>
-            <p>
-              Neil has a great understanding for game development. He was able
-              to assist on many aspects of both games we developed. Highly
-              valued asset.
-            </p>
-            <ul>
-              <li><img src="img/SP_Logo_Color.png" alt="" /></li>
-              <li>Skyna Productions. Perth</li>
-            </ul>
-          </div>
-          <div>
-            <p>
-              Enter quote from Charlie
-            </p>
-            <ul>
-              <li><img src="img/testimonials/charlie.jpg" alt="" /></li>
-              <li>Charlie Bateson, Sydney</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer id="main-footer">
-      <div class="footer-content container">
-        <p>Copyright &copy; 2019. All Rights Reserved</p>
-        <div class="social">
-          <i class="fab fa-github"></i>
-          <i class="fab fa-facebook"></i>
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-linkedin"></i>
-        </div>
-      </div>
-    </footer>
-  </body>
 </html>
